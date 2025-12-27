@@ -53,12 +53,6 @@ http://ip:port
 socks5://username:password@ip:port
 ```
 
-### cf_clearance.txt (Optional)
-If you encounter Cloudflare protection, insert your cf_clearance cookie:
-```
-your_cf_clearance_token_here
-```
-
 ## 💻 How to Use
 
 1. Run the bot:
@@ -88,20 +82,6 @@ The bot will display the following information for each account:
 
 ## ⚙️ Configuration
 
-### File Structure
-```
-Superintent-Auto-Bot/
-├── bot.py                 # Main bot script
-├── accounts.txt          # Wallet private keys
-├── proxy.txt             # Proxy list (optional)
-├── cf_clearance.txt      # Cloudflare clearance (optional)
-├── requirements.txt      # Python dependencies
-└── README.md            # Documentation
-```
-
-### Timezone
-The bot uses **WIB (Asia/Jakarta)** timezone for timestamps. You can change it in the code if needed.
-
 ## 🔒 Security
 
 - ⚠️ **NEVER** share your private keys with anyone
@@ -115,11 +95,6 @@ The bot uses **WIB (Asia/Jakarta)** timezone for timestamps. You can change it i
 - Ensure private key is valid and wallet has access
 - Check internet connection
 - If using proxy, ensure proxy is active
-
-### Cloudflare Protection
-- Get `cf_clearance` cookie from browser
-- Save it in `cf_clearance.txt` file
-- Restart the bot
 
 ### Check-in Failed
 - You may have already checked in today
